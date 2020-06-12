@@ -1,6 +1,6 @@
-package com.epam.app.DAO.impl;
+package com.epam.app.dao.impl;
 
-import com.epam.app.DAO.UserDAO;
+import com.epam.app.dao.UserDAO;
 import com.epam.app.model.User;
 import com.epam.app.util.db.DbUtils;
 import lombok.extern.log4j.Log4j;

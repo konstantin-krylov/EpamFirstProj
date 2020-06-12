@@ -1,7 +1,7 @@
 package com.epam.app.config;
 
-import com.epam.app.DAO.DaoFactory;
-import com.epam.app.DAO.impl.DaoFactorySupplier;
+import com.epam.app.dao.DaoFactory;
+import com.epam.app.dao.impl.DaoFactorySupplier;
 import com.epam.app.model.Book;
 import com.epam.app.model.Card;
 import com.epam.app.model.User;

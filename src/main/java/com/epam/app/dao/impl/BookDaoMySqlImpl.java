@@ -1,6 +1,6 @@
-package com.epam.app.DAO.impl;
+package com.epam.app.dao.impl;
 
-import com.epam.app.DAO.BookDAO;
+import com.epam.app.dao.BookDAO;
 import com.epam.app.model.Book;
 import com.epam.app.model.enums.Genre;
 import lombok.extern.log4j.Log4j;

@@ -1,6 +1,6 @@
 package com.epam.app.service;
 
-import com.epam.app.DAO.BookDAO;
+import com.epam.app.dao.BookDAO;
 import com.epam.app.model.Book;
 import com.epam.app.model.enums.BookState;
 import com.epam.app.util.PageManager;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import static com.epam.app.DAO.impl.ActualDaoFactory.getInstance;
+import static com.epam.app.dao.impl.ActualDaoFactory.getInstance;
 
 public class BookService {
 

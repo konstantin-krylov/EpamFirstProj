@@ -1,6 +1,6 @@
-package com.epam.app.DAO.impl;
+package com.epam.app.dao.impl;
 
-import com.epam.app.DAO.DaoFactory;
+import com.epam.app.dao.DaoFactory;
 
 import java.util.function.Function;
 

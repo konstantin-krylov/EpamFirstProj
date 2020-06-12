@@ -1,6 +1,6 @@
-package com.epam.app.DAO.impl;
+package com.epam.app.dao.impl;
 
-import com.epam.app.DAO.CardDAO;
+import com.epam.app.dao.CardDAO;
 import com.epam.app.model.Card;
 import com.epam.app.model.User;
 import com.epam.app.model.enums.CardState;
@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.epam.app.DAO.impl.DaoFactoryMySqlImpl.*;
+import static com.epam.app.dao.impl.DaoFactoryMySqlImpl.*;
 import static com.epam.app.model.enums.CardState.*;
 import static com.epam.app.util.db.DbUtils.*;
 import static com.epam.app.util.db.mysql.CardQueryMySql.*;

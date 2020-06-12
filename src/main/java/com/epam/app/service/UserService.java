@@ -1,6 +1,6 @@
 package com.epam.app.service;
 
-import com.epam.app.DAO.UserDAO;
+import com.epam.app.dao.UserDAO;
 import com.epam.app.model.User;
 import com.epam.app.model.enums.Role;
 import com.epam.app.util.PageManager;
@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import static com.epam.app.DAO.impl.ActualDaoFactory.getInstance;
+import static com.epam.app.dao.impl.ActualDaoFactory.getInstance;
 
 public class UserService {
 
