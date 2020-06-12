@@ -19,7 +19,7 @@ public class UserDaoMySqlImpl implements UserDAO {
         ResultSet resultSet = null;
         try (Connection connection = DbUtils.getConnection();
              Statement statement = connection.createStatement();
-             ResultSet rs = statement.executeQuery(SELECT_ALL);) {
+             ResultSet rs = statement.executeQuery(SELECT_ALL)) {
             resultSet = rs;
         } catch (SQLException e) {
             log.error("Failed getAll " + e);
@@ -51,7 +51,7 @@ public class UserDaoMySqlImpl implements UserDAO {
     @Override
     public void updateUser(User user) {
         try (Connection connection = DbUtils.getConnection();
-             PreparedStatement statement = connection.prepareStatement(UPDATE);) {
+             PreparedStatement statement = connection.prepareStatement(UPDATE)) {
             statement.setString(1, user.getName());
             statement.setInt(2, user.getRole().ordinal() + 1);
             statement.setString(3, user.getLogin());
@@ -68,7 +68,7 @@ public class UserDaoMySqlImpl implements UserDAO {
         List<User> array = new ArrayList<>();
         try (Connection connection = DbUtils.getConnection();
              Statement statement = connection.createStatement();
-             ResultSet rs = statement.executeQuery(SELECT_ALL);) {
+             ResultSet rs = statement.executeQuery(SELECT_ALL)) {
             while (rs.next()) {
                 array.add(new User(rs.getInt("id"),rs.getString("name"),
                         getRole(rs.getInt("role")),

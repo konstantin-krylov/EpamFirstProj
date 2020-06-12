@@ -9,16 +9,7 @@
 <html lang="${language}" style="background-color: #000000;">
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>
-        <c:choose>
-            <c:when test="${sessionScope.loggedInUser == null}">
-                <fmt:message key="welcome_page.title"/>
-            </c:when>
-            <c:otherwise>
-                <fmt:message key="home_page.title"/>
-            </c:otherwise>
-        </c:choose>
-    </title>
+    <title><fmt:message key="welcome_page.title"/></title>
 </head>
 
 <body style="background-color: rgba(255,255,255,0);vertical-align: center;">

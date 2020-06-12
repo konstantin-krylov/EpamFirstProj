@@ -44,7 +44,6 @@ public class Config {
     }
 
     private static void daemonThread(){
-        System.out.println("hello");
         Timer timer = new Timer ();
         TimerTask hourlyTask = new TimerTask () {
             @Override

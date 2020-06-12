@@ -125,7 +125,7 @@ public class CardDaoMySqlImpl implements CardDAO {
     @Override
     public void updateCardStatusAndDate(Card card, CardState cardState, LocalDate endDate) {
         try (Connection connection = DbUtils.getConnection();
-             PreparedStatement statement = connection.prepareStatement(UPDATE_DATE);){
+             PreparedStatement statement = connection.prepareStatement(UPDATE_DATE)){
             statement.setInt(1, cardState.ordinal()+1);
             statement.setDate(2, Date.valueOf(endDate));
             statement.setInt(3, card.getId());
