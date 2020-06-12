@@ -3,7 +3,7 @@
 First Web Application Project in *EPAM lab*.
 It is just a simple web project to learn how to make a Web app and work in a team
 
-##Fulfilled project requirements
+## Fulfilled project requirements
 - Layered and MVC architecture patterns
 - Storing data in a database
 - Internationalization of an interface (English, Russian)
@@ -23,14 +23,14 @@ It is a **Java Servlet** project using *Maven*. So you may run it in 3 steps:
 3. Run Tomcat
 
 ## Technology
-####Backend:
+#### Backend:
 1. Java8 Stream and Time API
 2. Java Servlets
 3. TomCat
 4. Maven
 5. MySql
 6. JDBC
-####Frontend:
+#### Frontend:
 1. JSP
 2. Bootstrap (css,js)
 
