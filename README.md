@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/konstantin-krylov/EpamFirstProj.svg?branch=Dev)](https://travis-ci.com/konstantin-krylov/EpamFirstProj)
 # Library System
 
 First Web Application Project in *EPAM lab*.
